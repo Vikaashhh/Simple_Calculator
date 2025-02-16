@@ -21,8 +21,8 @@ A minimalistic calculator built using **HTML** and a few lines of **JavaScript**
    git clone https://github.com/vikash5438/Simple-Calculator.git
 
 
-   ## Contributing
 
+## Contribution
 Contributions are welcome! Open issues or submit pull requests for improvements.
 
 ## License
