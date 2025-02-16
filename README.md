@@ -19,3 +19,16 @@ A minimalistic calculator built using **HTML** and a few lines of **JavaScript**
 1. Clone the repository:  
    ```bash
    git clone https://github.com/vikash5438/Simple-Calculator.git
+
+
+   ## Contributing
+
+Contributions are welcome! Open issues or submit pull requests for improvements.
+
+## License
+
+This project is licensed under the MIT License 
+
+---
+
+Built with ❤️ by [Vikash]
