@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <!-- First row: 1, 2, 3, + -->
+    <p>
+    <button onclick="
+        calculation += '1';  // Adds '1' to the calculation string
+        console.log(calculation);  // Shows current calculation in console
+      ">1</button>
+
+      <button onclick="
+        calculation += '2';  // Adds '2' to the calculation string
+        console.log(calculation);
+      ">2</button>
+
+      <button onclick="
+        calculation += '3';  // Adds '3' to the calculation string
+        console.log(calculation);
+      ">3</button>
+
+      <button onclick="
+        calculation += ' + ';  // Adds ' + ' with spaces for better formatting
+        console.log(calculation);
+      ">+</button>
+    </p>
+
+    <!-- Second row: 4, 5, 6, - -->
+    <p>
+      <button onclick="
+        calculation += '4';  // Adds '4' to the calculation string
+        console.log(calculation);
+      ">4</button>
+
+      <button onclick="
+        calculation += '5';  // Adds '5' to the calculation string
+        console.log(calculation);
+      ">5</button>
+
+      <button onclick="
+        calculation += '6';  // Adds '6' to the calculation string
+        console.log(calculation);
+      ">6</button>
+
+      <button onclick="
+        calculation += ' - ';  // Adds ' - ' with spaces for better formatting
+        console.log(calculation);
+      ">-</button>
+    </p>
+
+    <!-- Third row: 7, 8, 9, * -->
+    <p>
+      <button onclick="
+        calculation += '7';  // Adds '7' to the calculation string
+        console.log(calculation);
+      ">7</button>
+
+      <button onclick="
+        calculation += '8';  // Adds '8' to the calculation string
+        console.log(calculation);
+      ">8</button>
+
+      <button onclick="
+        calculation += '9';  // Adds '9' to the calculation string
+        console.log(calculation);
+      ">9</button>
+
+      <button onclick="
+        calculation += ' * ';  // Adds ' * ' with spaces for better formatting
+        console.log(calculation);
+      ">*</button>
+    </p>
+
+    <!-- Fourth row: 0, ., =, / -->
+    <p>
+      <button onclick="
+        calculation += '0';  // Adds '0' to the calculation string
+        console.log(calculation);
+      ">0</button>
+
+      <button onclick="
+        calculation += '.';  // Adds decimal point for floating point numbers
+        console.log(calculation);
+      ">.</button>
+
+      <button onclick="
+        // Note: eval() takes a string and runs it as code.
+        // Avoid using eval() in real world projects since
+        // it can potentially be given harmful code to run.
+        // Only use eval() for learning purposes.
+        calculation = eval(calculation);  // Calculates the result of the mathematical expression
+        console.log(calculation);
+      ">=</button>
+
+      <button onclick="
+        calculation += ' / ';  // Adds ' / ' with spaces for better formatting
+        console.log(calculation);
+      ">/</button>
+    </p>
+
+    <!-- Clear button to reset the calculation -->
+    <p>
+      <button onclick="
+        calculation = '';  // Resets the calculation string to empty
+        console.log(calculation);
+      ">Clear</button>
+    </p>
+
+
+    <script>
+        let calculation = '';  // Stores the current calculation as a string
+    </script>
+</body>
+</html>
